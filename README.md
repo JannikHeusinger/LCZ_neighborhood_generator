@@ -8,5 +8,5 @@ Here is an example for a neighborhood with LCZ2 and a model area of 200x200 m2. 
 The sky view factor of the neighborhood can be diagnosed:\
 ![image](https://github.com/user-attachments/assets/0a79cf69-2ee5-4d29-b758-da8a2bc85313)
 
-And the final input image for Envi-met Spaces can look like this e.g.:\
+And the final input image for Envi-met Spaces can look like this e.g. (note the labels that provide the building heights):\
 ![labeled_height_grid](https://github.com/user-attachments/assets/e4b22cc6-a8aa-4600-9595-726596b0474f)
