@@ -25,13 +25,13 @@ lcz_params = {
 }
 
 #### User Input here ####
-size_m = 1000           # model area size in x and y direction (m)
+size_m = 200           # model area size in x and y direction (m)
 resolution = 1          # horizontal resolution (m)
 lcz_type="LCZ2"         # local climate zone type
 road_spacing_m = 82     # distance between roads (center point) - this essentially defines the city block sizes (m)
 
-road_spacing = road_spacing_m/resolution # distance between roads (grids)
-size=size_m/resolution                  # model area size in x and y direction (grids)
+road_spacing = int(road_spacing_m/resolution) # distance between roads (grids)
+size=int(size_m/resolution)                  # model area size in x and y direction (grids)
 def generate_full_road_network_with_width(size, lcz_type, lcz_params, road_spacing):
     """
     Generate a road network with variable street widths based on the LCZ type.
